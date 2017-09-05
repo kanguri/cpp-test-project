@@ -1,10 +1,14 @@
 #include <iostream>
 
+float interestingFunction(int a, int b)
+{
+	float r;
+	r=(a+b)*0.97;
+	return r;
+}
+
 int main()
 {
-	for(int i=0;i<10;i++)
-	{
-		std::cout << i << "\n";
-	}
+	std::cout << interestingFunction(5, 6) << "\n";
 	std::cout << "Hello!" << "\n";
 }
