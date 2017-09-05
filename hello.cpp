@@ -9,6 +9,11 @@ float interestingFunction(int a, int b)
 
 int main()
 {
-	std::cout << interestingFunction(5, 6) << "\n";
-	std::cout << "Hello!" << "\n";
+	int a;
+	int b;
+	std::cout << "Please enter the first integer: ";
+	std::cin >> a;
+	std::cout << "Please enter the second integer: ";
+	std::cin >> b;
+	std::cout << "Here is the result: " << interestingFunction(a, b) << "\n";
 }
