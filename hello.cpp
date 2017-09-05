@@ -30,5 +30,5 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 	
-	std::cout << "Here is the result: " << interestingFunction(a, b) << "\n";
+	std::cout << interestingFunction(a, b) << "\n";
 }
